@@ -1,0 +1,14 @@
+{%extends 'base.html' %}
+
+{% block content %}
+<style>
+    h1 {
+        font-size: 70px;
+        margin-top: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+<h1>Welcome {{user.username | upper}} </h1>
+{% endblock %}
